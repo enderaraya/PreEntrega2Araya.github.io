@@ -138,8 +138,11 @@ li{
             width: 50%;
             
         }
-        .pantalla-dividia{
+        .pantalla-dividida{
             display:flex;
+            background-image: url('../img/almacigo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .btn {
             font-family: Roboto, sans-serif;
@@ -183,3 +186,24 @@ li{
         .contenedoriframe{
             display:flex;flex-direction: column;
         }
+        
+        .inputbox{
+            color:white;
+            font-size: medium;
+            
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 15px;
+        }
+        
+        
+        
+        
