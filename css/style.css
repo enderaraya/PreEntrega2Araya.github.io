@@ -1,0 +1,185 @@
+header {
+    background-color: #53b472;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+
+
+body {
+    background-color: #ebebeb;
+    margin: 0;
+    font-family: LucidaConsole, Monospace;
+    
+}
+
+
+.producto {
+
+    text-align: center;
+    background-color: lightgrey;
+    
+    border: 25px solid #53b472;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 80px;
+    
+
+}
+
+.parrafo {
+
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 80px;
+    font-family: Papyrus, fantasy;
+
+}
+
+.productoOferta {
+
+    text-align: center;
+    background-color: lightgrey;
+    border: 25px solid rgb(226, 127, 34);
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 80px;
+    
+
+}
+
+.headers {
+
+    display: flex;
+
+}
+
+footer {
+    background-color: #53b472; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo{
+    width: 300px;
+}
+
+.navegacion{
+    display:flex;
+}
+
+li{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu{
+    padding: 4px 8px;
+    
+}
+
+.navstyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.conainermenu{
+    display: flex;
+}
+
+.navfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+        .card-landing {
+            width: 1199px;
+            border-radius: 1rem;
+            border: 2px solid rgba(255,255,255,.8);
+            margin-bottom: 2rem;
+            background: rgba(255,255,255,.7);
+            box-shadow: 0 4px 24px 0 rgba(0,0,0,.15) inset, 0 4px 4px 0 rgba(0,0,0,.15);
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .izquierda{
+            width:50%;
+        }
+
+        .derecha {
+            width: 50%;
+            
+        }
+        .pantalla-dividia{
+            display:flex;
+        }
+        .btn {
+            font-family: Roboto, sans-serif;
+            font-weight: 0;
+            font-size: 14px;
+            color: #fff;
+            background-color: #53b472;
+            padding: 10px 30px;
+            border: solid #53b472 2px;
+            box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+            border-radius: 50px;
+            transition: 1000ms;
+            transform: translateY(0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            cursor: pointer;
+        }
+
+    
+        .buttoncontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly; 
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .botonenviar{
+            display: flex; justify-content: flex-start
+        }
+
+        .input {
+        
+            border-radius: 10px;
+            display: flex;
+            width: 60%;
+        }
+
+        .contenedoriframe{
+            display:flex;flex-direction: column;
+        }
