@@ -13,36 +13,41 @@
     <header>
     
 
-        <nav class="navstyle">
-            <a href="" ><img class="img-fluid logo" src="./img/logo.png" alt="logo vivero"></a>
-            <div class="conainermenu">
-                <li class="nav-item menu">
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item menu">
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item menu">
-                    <a href="./pages/tienda.html">Tienda</a>
-                </li>
-
-                <li class="nav-item menu">
-                    <a href="./pages/ofertas.html">Ofertas</a>
-                </li>
-
-                <li class="nav-item menu">
-                    <a href="./pages/contacto.html">Contacto</a>
-                    
-                </li>
-
-                <li class="nav-item">
-                    <form action="">
-                        
-                        <Input type="search" placeholder="Buscar" id="parametroBusqueda"></Input>
-                    </form>
-                </li>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./img/logo.png" alt="Logo" class="logo">
+                    </div>
+                    <div class="col-6">
+                        <nav class="navbar navbar-expand-md navbar-light justify-content-end">
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/tienda.html">Tienda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
 
     </header>
 
@@ -94,37 +99,24 @@
             
         </section>
         <br>
-        <!--
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qwRcMQXMENM?si=bpSpQr0A11Zu47Mh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-6">
-                        <h2 class="text-lg-start">Compromiso Ecologico</h2>
-                            <p class="text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius sit voluptas ipsa ea sed, animi vel saepe dolor vitae architecto esse! Labore dolore quaerat natus voluptate molestias nobis modi?</p>
-                            <a href="">Conoce más</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
+        
 
             <div class="container-fluid">
                 <div class="row">
                 <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qwRcMQXMENM?si=bpSpQr0A11Zu47Mh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/qwRcMQXMENM?si=bpSpQr0A11Zu47Mh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="col-6">
                     <h2 class="text-lg-start">Compromiso Ecológico</h2>
                     <p class="text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius sit voluptas ipsa ea sed, animi vel saepe dolor vitae architecto esse! Labore dolore quaerat natus voluptate molestias nobis modi?</p>
-                    <a href="">Conoce más</a>
+                    <div class="botonenviar">
+    
+                        <input class="btn" type="submit" value="Conoce más">
+                        
+                    </div>
                     </div>
                 </div>
                 </div>
@@ -139,57 +131,61 @@
 
 
 
-    <footer>
-
-        <nav class="navfooter">
-            
-            <div class="conainermenu">
-                <li class="nav-item menu">
+    <footer class="bg-footer text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
                     <h4>Información</h4>
                     <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">ipsum</a></li>
-                        <li><a href="">dolor</a></li>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolorem</li>
                     </ul>
-                </li>
-                <li class="nav-item menu">
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
                     <h4>Novedades</h4>
                     <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">ipsum</a></li>
-                        <li><a href="">dolor</a></li>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolorem</li>
                     </ul>
-                </li>
-                <li class="nav-item menu">
-                    <h4>Contacto</h4>
-                    <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">ipsum</a></li>
-                        <li><a href="">dolor</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item menu">
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
                     <h4>Nosotros</h4>
                     <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">ipsum</a></li>
-                        <li><a href="">dolor</a></li>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolorem</li>
                     </ul>
-                </li>
-
-                <li class="nav-item menu">
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
                     <h4>Redes Sociales</h4>
                     <ul>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Instagram</a></li>
-                        <li><a href="">X</a></li>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolorem</li>
                     </ul>
-                </li>
-
-                
+                </div>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolorem</li>
+                    </ul>
+                </div>
             </div>
-        </nav>
+        </div>
+    
+                <div class="container d-lg-none">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="./img/logo.png" alt="Logo" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
