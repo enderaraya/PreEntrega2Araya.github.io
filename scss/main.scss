@@ -320,3 +320,80 @@ aside.categories {
         margin: 0.5rem 0;
     }
 }
+
+//pagina de "nosotros"
+
+// Variables
+$backgroundImage1: url('../img/almacigo.jpg');
+$backgroundImage2: url('../img/vision.jpg');
+$primaryColor: #fff;
+$sectionBackgroundColor1: #f0f0f0;
+$sectionBackgroundColor2: #e0e0e0;
+$sectionBackgroundColor3: #d0d0d0;
+$sectionBackgroundColor4: #c0c0c0;
+
+// Estilos generales para cada sección
+.seccion {
+    padding: 20px;
+}
+
+// primera sección
+#seccion1 {
+    background-image: $backgroundImage1;
+    background-size: cover;
+    background-position: center;
+    color: $primaryColor;
+    text-align: center;
+    height: 70vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+
+//segunda sección
+#seccion2 {
+    display: flex;
+    background-color: $sectionBackgroundColor2;
+    height: 50vh; 
+
+    .izquierda {
+        flex: 1;
+        background-image: $backgroundImage2;
+        background-size: cover;
+    }
+
+    .derecha {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    
+    }
+
+    @media (max-width: 800px) {
+        .izquierda {
+            display: none; 
+        }
+    }
+}
+
+//tercera sección
+#seccion3 {
+    background-color: $sectionBackgroundColor3;
+    text-align: center;
+
+    
+}
+
+//cuarta sección
+#seccion4 {
+    background-color: $sectionBackgroundColor4;
+    text-align: center;
+
+    
+}

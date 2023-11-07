@@ -281,5 +281,54 @@ aside.categories ul li a {
     margin: 0.5rem 0;
   }
 }
+.seccion {
+  padding: 20px;
+}
+
+#seccion1 {
+  background-image: url("../img/almacigo.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#seccion2 {
+  display: flex;
+  background-color: #e0e0e0;
+  height: 50vh;
+}
+#seccion2 .izquierda {
+  flex: 1;
+  background-image: url("../img/vision.jpg");
+  background-size: cover;
+}
+#seccion2 .derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #seccion2 .izquierda {
+    display: none;
+  }
+}
+
+#seccion3 {
+  background-color: #d0d0d0;
+  text-align: center;
+}
+
+#seccion4 {
+  background-color: #c0c0c0;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
