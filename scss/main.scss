@@ -62,12 +62,7 @@ body {
 
 }
 
-footer {
-    background-color: #53b472; 
-    color: white; 
-    text-align: center; 
-    padding: 10px; 
-}
+
 
 
 
@@ -396,4 +391,85 @@ $sectionBackgroundColor4: #c0c0c0;
     text-align: center;
 
     
+}
+
+
+//footer
+
+/* Estilos generales */
+.bg-footer {
+    background-color: #53b472;
+    padding: 50px 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* Estilos para los elementos dentro del footer */
+footer {
+    h4 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            margin-bottom: 8px;
+        }
+    }
+
+    img {
+        max-width: 100px;
+        margin-top: 20px;
+    }
+
+    /* Media query para pantallas medianas (tablets, etc.) */
+    @media (max-width: 768px) {
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        img {
+            max-width: 80px;
+        }
+    }
+
+    /* Media query para pantallas pequeñas (móviles) */
+    @media (max-width: 576px) {
+        padding: 20px 0;
+        h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            text-align: center;
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centra los íconos */
+    li {
+        display: inline;
+        margin-right: 10px; /* Espaciado entre los íconos */
+        a {
+            color: #fff; /* Color de los íconos */
+            font-size: 24px; /* Tamaño de los íconos */
+            text-decoration: none;
+            &:hover {
+                color: #007bff; /* Cambia el color al pasar el mouse por encima */
+            }
+        }
+    }
 }

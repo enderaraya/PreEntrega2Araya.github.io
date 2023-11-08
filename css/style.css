@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   background-color: #53b472;
   color: white;
@@ -48,13 +49,6 @@ body {
   margin-left: 450px;
   margin-right: 450px;
   margin-top: 80px;
-}
-
-footer {
-  background-color: #53b472;
-  color: white;
-  text-align: center;
-  padding: 10px;
 }
 
 .logo {
@@ -329,6 +323,79 @@ aside.categories ul li a {
 #seccion4 {
   background-color: #c0c0c0;
   text-align: center;
+}
+
+/* Estilos generales */
+.bg-footer {
+  background-color: #53b472;
+  padding: 50px 0;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Estilos para los elementos dentro del footer */
+footer {
+  /* Media query para pantallas medianas (tablets, etc.) */
+  /* Media query para pantallas pequeñas (móviles) */
+}
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  margin-bottom: 8px;
+}
+footer img {
+  max-width: 100px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  footer h4 {
+    font-size: 1.2rem;
+  }
+  footer img {
+    max-width: 80px;
+  }
+}
+@media (max-width: 576px) {
+  footer {
+    padding: 20px 0;
+  }
+  footer h4 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li {
+    margin-bottom: 5px;
+  }
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centra los íconos */
+}
+.social-icons li {
+  display: inline;
+  margin-right: 10px; /* Espaciado entre los íconos */
+}
+.social-icons li a {
+  color: #fff; /* Color de los íconos */
+  font-size: 24px; /* Tamaño de los íconos */
+  text-decoration: none;
+}
+.social-icons li a:hover {
+  color: #007bff; /* Cambia el color al pasar el mouse por encima */
 }
 
 /*# sourceMappingURL=style.css.map */
