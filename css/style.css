@@ -280,7 +280,7 @@ aside.categories ul li a {
 }
 
 #seccion1 {
-  background-image: url("../img/almacigo.jpg");
+  background-image: url("../img/rucula.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -316,12 +316,12 @@ aside.categories ul li a {
 }
 
 #seccion3 {
-  background-color: #d0d0d0;
+  background-color: #f0f0f0;
   text-align: center;
 }
 
 #seccion4 {
-  background-color: #c0c0c0;
+  background-color: #e0e0e0;
   text-align: center;
 }
 
@@ -337,8 +337,8 @@ aside.categories ul li a {
 
 /* Estilos para los elementos dentro del footer */
 footer {
-  /* Media query para pantallas medianas (tablets, etc.) */
-  /* Media query para pantallas pequeñas (móviles) */
+  /* Media query para pantallas medianas  */
+  /* Media query para pantallas pequeñas */
 }
 footer h4 {
   font-size: 1.5rem;
@@ -379,23 +379,22 @@ footer img {
   }
 }
 
-/* Estilos para los íconos de redes sociales */
 .social-icons {
   list-style: none;
   padding: 0;
-  text-align: center; /* Centra los íconos */
+  text-align: center;
 }
 .social-icons li {
   display: inline;
-  margin-right: 10px; /* Espaciado entre los íconos */
+  margin-right: 10px;
 }
 .social-icons li a {
-  color: #fff; /* Color de los íconos */
-  font-size: 24px; /* Tamaño de los íconos */
+  color: #fff;
+  font-size: 24px;
   text-decoration: none;
 }
 .social-icons li a:hover {
-  color: #007bff; /* Cambia el color al pasar el mouse por encima */
+  color: #007bff;
 }
 
 /*# sourceMappingURL=style.css.map */

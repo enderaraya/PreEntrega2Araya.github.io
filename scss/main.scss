@@ -319,13 +319,13 @@ aside.categories {
 //pagina de "nosotros"
 
 // Variables
-$backgroundImage1: url('../img/almacigo.jpg');
+$backgroundImage1: url('../img/rucula.jpg');
 $backgroundImage2: url('../img/vision.jpg');
 $primaryColor: #fff;
 $sectionBackgroundColor1: #f0f0f0;
 $sectionBackgroundColor2: #e0e0e0;
-$sectionBackgroundColor3: #d0d0d0;
-$sectionBackgroundColor4: #c0c0c0;
+$sectionBackgroundColor3: #f0f0f0;
+$sectionBackgroundColor4: #e0e0e0;
 
 // Estilos generales para cada sección
 .seccion {
@@ -426,7 +426,7 @@ footer {
         margin-top: 20px;
     }
 
-    /* Media query para pantallas medianas (tablets, etc.) */
+    /* Media query para pantallas medianas  */
     @media (max-width: 768px) {
         h4 {
             font-size: 1.2rem;
@@ -437,7 +437,7 @@ footer {
         }
     }
 
-    /* Media query para pantallas pequeñas (móviles) */
+    /* Media query para pantallas pequeñas */
     @media (max-width: 576px) {
         padding: 20px 0;
         h4 {
@@ -455,20 +455,20 @@ footer {
 }
 
 
-/* Estilos para los íconos de redes sociales */
+
 .social-icons {
     list-style: none;
     padding: 0;
-    text-align: center; /* Centra los íconos */
+    text-align: center; 
     li {
         display: inline;
-        margin-right: 10px; /* Espaciado entre los íconos */
+        margin-right: 10px;
         a {
-            color: #fff; /* Color de los íconos */
-            font-size: 24px; /* Tamaño de los íconos */
+            color: #fff; 
+            font-size: 24px; 
             text-decoration: none;
             &:hover {
-                color: #007bff; /* Cambia el color al pasar el mouse por encima */
+                color: #007bff; 
             }
         }
     }
