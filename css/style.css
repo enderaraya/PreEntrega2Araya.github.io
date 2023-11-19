@@ -19,7 +19,7 @@
 body {
   background-color: #ebebeb;
   margin: 0;
-  font-family: LucidaConsole, Monospace;
+  font-family: Sofia, sans-serif, Monospace;
 }
 
 .producto {
@@ -28,24 +28,6 @@ body {
   border: 25px solid #53b472;
   padding: 20px;
   margin: 20px;
-  margin-left: 450px;
-  margin-right: 450px;
-  margin-top: 80px;
-}
-
-.parrafo {
-  text-align: center;
-  background-color: lightgrey;
-  padding: 20px;
-  margin: 80px;
-  font-family: Papyrus, fantasy;
-}
-
-.productoOferta {
-  text-align: center;
-  background-color: lightgrey;
-  border: 25px solid rgb(226, 127, 34);
-  padding: 20px;
   margin-left: 450px;
   margin-right: 450px;
   margin-top: 80px;
@@ -68,10 +50,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-}
-
-.conainermenu {
-  display: flex;
 }
 
 .navfooter {
@@ -115,7 +93,7 @@ body {
 .btn {
   font-family: Roboto, sans-serif;
   font-weight: 0;
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #fff;
   background-color: #53b472;
   padding: 10px 30px;
@@ -158,7 +136,7 @@ body {
 
 .inputbox {
   color: white;
-  font-size: medium;
+  font-size: 1.3rem;
 }
 
 .row {
@@ -390,7 +368,7 @@ footer img {
 }
 .social-icons li a {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 .social-icons li a:hover {
